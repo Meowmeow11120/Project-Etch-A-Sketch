@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Etch-A-Sketch</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Etch-A-Sketch</h1>
+        <div class="layout">
+            <div class="btnSet">
+                <input type="color" id="colorPicker" class="btn" value="#000000">
+                <button class="colorMode btn">Color Mode</button>
+                <button class="eraser btn">Eraser</button>
+                <button class="clear btn">Clear</button>
+                <div>
+                    <input type="range" min="1" max="100" value="1" class="slider" id="myRange">
+                    <div class="sizeValue">1 x 1</div>
+                </div>
+            </div>
+            <div class="gridContainer">
+                <div class="gridCollum">
+                    <div class="gridRow" style="width: calc(100%); padding-bottom: calc(100%);"></div>
+                </div>
+
+                <script src="./app.js"></script>
+</body>
+
+</html>
